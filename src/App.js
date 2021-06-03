@@ -8,9 +8,6 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Howdy "User"!</p>
-        <a className="App-link" href="#" target="_self">
-          Sign Out
-        </a>
       </header>
     </div>
   );
