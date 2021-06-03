@@ -8,6 +8,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Howdy Aditya!</p>
+        <button className="clickTest" onClick={() => {
+          alert("Thanks for Clicking!");
+        }}>
+          Click me for GA
+        </button>
       </header>
     </div>
   );
